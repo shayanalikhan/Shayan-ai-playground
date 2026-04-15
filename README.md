@@ -1,83 +1,65 @@
-# Shayan-ai-playground
+# Shayan Khan
 
-A public repo for Shayan's AI-assisted experiments, tools, and small systems projects.
+AI systems, automation, and practical workflow design.
 
-The goal is simple: build useful things, keep them versioned, and let the repo grow into a clean catalog of real work.
+I build useful systems that combine AI capability with human judgment, clear operations, and real-world execution.
 
-## What is in here right now
+## Positioning
 
-### `server-monitor/`
-A minimal live monitoring dashboard for the OpenClaw host.
+My core view is simple:
 
-It currently tracks:
-- CPU, RAM, disk, and uptime
-- network latency and HTTP reachability
-- listening ports and failed services
-- OpenClaw status, audit warnings, and update state
-- recent auth anomalies and system log errors
-- high-signal security alerts
+> AI is a tool, not a replacement for your mind.
 
-## Quick start
+That means I care less about hype and more about building systems that help people think better, move faster, and operate with more leverage.
 
-From the repo root:
+## What I focus on
 
-```bash
-npm run monitor:dashboard
-```
+- AI-assisted workflow design
+- agent-driven automation
+- operations and infrastructure tooling
+- human-in-the-loop systems
+- turning rough ideas into working products quickly
+- using AI to support decision-making without giving up critical thinking
 
-Useful commands:
+## What this repo is for
 
-```bash
-npm run monitor:snapshot
-npm run monitor:json
-```
+This repository is being repurposed into a living portfolio of my AI work.
 
-The dashboard can be started on different bind addresses depending on how you want to reach it, for example loopback-only or a Tailscale address.
+Over time it will hold:
+- case studies
+- project writeups
+- experiments
+- operating principles
+- examples of how I use AI in practical environments
 
-## Repo structure
+## Current proof of work
 
-```text
-.
-├── server-monitor/        # Monitoring dashboard project
-├── CONTRIBUTING.md        # Workflow notes for future work
-├── package.json           # Top-level helper scripts
-└── README.md              # Repo homepage
-```
+Recent work themes already reflected in my workflow:
 
-## Project philosophy
+- designing and shipping an AI-assisted server monitoring dashboard
+- using AI to diagnose infrastructure, networking, and security posture
+- connecting remote systems safely with Tailscale and controlled access patterns
+- structuring repositories so AI-generated work is versioned, reviewable, and publishable
+- using AI as an execution partner without losing oversight
 
-This repo is meant to stay:
-- practical
-- readable
-- easy to run again later
-- safe to share publicly
+## Strengths this repo is meant to show
 
-That means:
-- each project gets its own folder
-- secrets and machine-specific private data stay out of git
-- small focused commits are preferred over giant dumps
-- every project should explain what it does and how to run it
+- turning ideas into shipped tools quickly
+- combining AI with infrastructure and operations work
+- staying practical instead of purely theoretical
+- building with safety, reviewability, and iteration in mind
+- communicating technical work clearly
 
-## Working with Chico
+## Read next
 
-This repo is designed to work well with AI-assisted development.
+- [Projects](./PROJECTS.md)
+- [Principles](./PRINCIPLES.md)
 
-Typical flow:
-1. Pick a project idea
-2. Create or update a project folder
-3. Review the changes
-4. Commit locally
-5. Push when it is ready to be public
+## Links
 
-## Roadmap
+- LinkedIn: <https://www.linkedin.com/in/shayankhan51/>
+- GitHub: <https://github.com/shayanalikhan/Shayan-ai-playground>
 
-Likely future additions:
-- more monitoring and automation tools
-- personal infrastructure utilities
-- experiments that start small and get refined over time
+## Note
 
-## Notes
-
-- The current monitor is intentionally lightweight and uses only built-in Node modules.
-- Cached probe output is ignored by git.
-- If a project exposes sensitive infrastructure details, it should be sanitized before publishing.
+LinkedIn makes full profile/post extraction difficult without login, so this repo positioning is based on the public-facing theme I could verify plus the actual AI/infrastructure work already being built. It can be tightened further anytime with direct profile content.
