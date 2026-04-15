@@ -1,0 +1,9 @@
+{
+  "name": "shayan-ai-playground",
+  "private": true,
+  "scripts": {
+    "monitor:dashboard": "node server-monitor/server.js",
+    "monitor:snapshot": "node server-monitor/collector.js --pretty",
+    "monitor:json": "node server-monitor/collector.js"
+  }
+}
