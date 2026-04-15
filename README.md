@@ -6,6 +6,13 @@ A public playground repo for Shayan's AI-assisted experiments and tools.
 
 - `server-monitor/` - minimal live monitoring dashboard for the OpenClaw host
 
+## Repo workflow
+
+- Each project should live in its own folder
+- Keep secrets and machine-specific private files out of git
+- Prefer small commits with clear READMEs
+- See `CONTRIBUTING.md` for the working conventions
+
 ## Server monitor
 
 Run locally on the server:
